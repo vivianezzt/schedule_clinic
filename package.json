@@ -6,9 +6,10 @@
     "dev": "next dev --port 3001",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "prepare": "husky",
-    "db:push": "drizzle-kit push"
+    "db:push": "drizzle-kit push",
+    "lint": "eslint . --ext .ts,.tsx --config=eslint.config.mjs",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
