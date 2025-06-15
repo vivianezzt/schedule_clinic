@@ -1,4 +1,4 @@
-# 📋 Visão geral — Clinic Schedule (GitHub Projects)
+## 📋 Visão geral — Clinic Schedule (GitHub Projects)
 
 Este documento acompanha o planejamento visual do sistema `clinic_schedule`, representado no board de projeto do GitHub.
 
@@ -7,6 +7,7 @@ Este documento acompanha o planejamento visual do sistema `clinic_schedule`, rep
 Sistema completo de agendamento clínico com gestão de pacientes, médicos e clínicas.
 
 **Tecnologias utilizadas:**
+
 - 📦 Next.js com TypeScript
 - 🎨 Tailwind CSS para estilização
 - 🧠 PostgreSQL + Drizzle ORM para modelagem relacional
@@ -28,6 +29,10 @@ O board é dividido nas seguintes colunas:
 - [🧾 Issues](https://github.com/vivianezzt/clinic-schedule/issues)
 - [🚀 Pull Requests](https://github.com/vivianezzt/clinic-schedule/pulls)
 - [📊 Projeto no GitHub Projects](https://github.com/users/vivianezzt/projects)
+
+## 📦 Infraestrutura do Projeto
+
+- [Configuração de ESLint, Prettier e FlatConfig](./lint-config-documentacao.md)
 
 ---
 

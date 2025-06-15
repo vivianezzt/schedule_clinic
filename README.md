@@ -25,14 +25,20 @@ Sistema de agendamento clínico com gerenciamento de usuários, médicos, pacien
 - [x] Deploy do schema no banco (NeonDB)
 - [x] Validação no Drizzle Studio
 - [x] Geração do diagrama ERD
-- [ ] Implementação da tela de login
+- [x] Implementação da tela de login e cadastro [`docs/authentication-page.md`](./docs/authentication-page.md)
 - [ ] CRUD de pacientes, médicos e agendamentos
 - [ ] Integração com calendário
 - [ ] Autenticação e autorização (em breve)
 
 ---
 
-## Figma do Projeto
+## 🧩 Documentação de funcionalidades
+
+- 🔐 [AuthenticationPage — tela de login e cadastro](./docs/authentication-page.md)
+
+---
+
+## 🎨 Figma do Projeto
 
 <a href="https://www.figma.com/design/0G9SAhJsDPpb9mXORSxxY3/dr.agenda?node-id=55-2296&t=v6HLEDewtpbwiVb8-0">**Clinic scheduling**</a>
 
@@ -50,7 +56,8 @@ O banco de dados foi modelado com Drizzle ORM, utilizando PostgreSQL.
   - `appointments`
   - `users_to_clinics`
 
-🖼 Diagrama do banco:  
+### 🖼 Diagrama do banco:
+
 <img src="./public/clinic-shedule.png">
 
 ---
