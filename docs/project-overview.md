@@ -34,7 +34,6 @@ O board é dividido nas seguintes colunas:
 
 - [Configuração de ESLint, Prettier e FlatConfig](./lint-config-documentacao.md)
 
-
 ---
 
 Este documento ajuda a rastrear o progresso geral e manter alinhamento com o roadmap planejado.
