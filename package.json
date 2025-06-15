@@ -8,8 +8,8 @@
     "start": "next start",
     "prepare": "husky",
     "db:push": "drizzle-kit push",
-    "lint": "eslint . --ext .ts,.tsx --config=eslint.config.mjs",
-    "format": "prettier --write ."
+    "format:all": "npm run lint:fix && npm run format",
+    "lint:fix": "eslint . --ext .ts,.tsx --config=eslint.config.mjs --fix"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",

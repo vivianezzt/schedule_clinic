@@ -1,7 +1,6 @@
-
 import { FlatCompat } from '@eslint/eslintrc';
-import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import prettierPlugin from 'eslint-plugin-prettier';
+import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -13,15 +12,11 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
-  ...compat.extends(
-    'next/core-web-vitals',
-    'next/typescript',
-    'plugin:prettier/recommended'
-  ),
+  ...compat.extends('next/core-web-vitals', 'next/typescript', 'plugin:prettier/recommended'),
   {
     plugins: {
       'simple-import-sort': simpleImportSort,
-      prettier: prettierPlugin
+      prettier: prettierPlugin,
     },
     rules: {
       // Ordenação de imports
@@ -29,9 +24,9 @@ const eslintConfig = [
       'simple-import-sort/exports': 'error',
 
       // Prettier como fonte de verdade de estilo
-      'prettier/prettier': 'error'
-    }
-  }
+      'prettier/prettier': 'error',
+    },
+  },
 ];
 
 export default eslintConfig;
