@@ -1,10 +1,9 @@
 ---
 name: 🐛 Bug report
 about: Relate um erro ou comportamento inesperado
-title: "fix: "
+title: 'fix: '
 labels: bug
 assignees: ''
-
 ---
 
 ## 🐞 Descrição do problema

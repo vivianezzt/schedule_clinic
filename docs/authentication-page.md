@@ -80,12 +80,12 @@ Idêntico ao login, mas com 4 campos. Utiliza `FormField`, `FormItem`, `FormLabe
 
 ### Tailwind Classes Utilizadas
 
-| Classe         | Descrição                                  |
-|----------------|---------------------------------------------|
-| `space-y-4`    | Espaçamento vertical entre os campos       |
-| `mb-1`         | Margem inferior do título (`CardTitle`)    |
-| `pt-2`         | Padding-top no `CardFooter`                |
-| `w-full`       | Botão ocupando toda a largura              |
+| Classe      | Descrição                               |
+| ----------- | --------------------------------------- |
+| `space-y-4` | Espaçamento vertical entre os campos    |
+| `mb-1`      | Margem inferior do título (`CardTitle`) |
+| `pt-2`      | Padding-top no `CardFooter`             |
+| `w-full`    | Botão ocupando toda a largura           |
 
 ---
 
@@ -102,17 +102,13 @@ Idêntico ao login, mas com 4 campos. Utiliza `FormField`, `FormItem`, `FormLabe
 No seu `README.md`, adicione:
 
 ```md
-
-
 ---
-
 ## 🚀 Melhorias futuras (sugestões)
 
 - Adicionar validação de igualdade entre senha e confirmação.
 - Exibir toast de feedback.
 - Mostrar loading no botão enquanto envia.
 - Conectar com backend (ex: NextAuth, JWT, API REST).
-
 ---
 
 ## 📋 Histórico de Implementação e Correções
@@ -176,3 +172,4 @@ No seu `README.md`, adicione:
 - Branch: `feat/authentication-page`
 - Título: `✨ feat(auth): implementa tela de autenticação com login e cadastro`
 - Status: Conflitos resolvidos ✅, pronto para merge
+```

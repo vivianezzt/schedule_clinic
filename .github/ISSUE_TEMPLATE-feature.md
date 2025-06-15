@@ -1,10 +1,9 @@
 ---
 name: ✨ Feature request
 about: Sugira uma nova funcionalidade para o projeto
-title: "feat: "
+title: 'feat: '
 labels: enhancement
 assignees: ''
-
 ---
 
 ## ✨ Descrição da funcionalidade

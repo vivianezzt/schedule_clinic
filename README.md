@@ -1,4 +1,3 @@
-
 # 🏥 Clinic Schedule
 
 Sistema de agendamento clínico com gerenciamento de usuários, médicos, pacientes e clínicas — desenvolvido com foco em arquitetura profissional, uso de Git avançado, e banco de dados relacional com Drizzle ORM.
@@ -57,7 +56,8 @@ O banco de dados foi modelado com Drizzle ORM, utilizando PostgreSQL.
   - `appointments`
   - `users_to_clinics`
 
-### 🖼 Diagrama do banco:  
+### 🖼 Diagrama do banco:
+
 <img src="./public/clinic-shedule.png">
 
 ---
