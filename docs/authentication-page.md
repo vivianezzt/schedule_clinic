@@ -1,4 +1,3 @@
-
 # 🧾 AuthenticationPage — Detalhamento do Componente
 
 Este documento explica passo a passo a implementação do componente `AuthenticationPage`, responsável por gerenciar as telas de **login** e **cadastro de usuários** utilizando `react-hook-form`, `zod` e os componentes visuais do `shadcn/ui`.
@@ -103,8 +102,7 @@ Idêntico ao login, mas com 4 campos. Utiliza `FormField`, `FormItem`, `FormLabe
 No seu `README.md`, adicione:
 
 ```md
-➡️ Veja o detalhamento do componente de autenticação [aqui](./docs/authentication-page.md).
-```
+
 
 ---
 
@@ -114,3 +112,67 @@ No seu `README.md`, adicione:
 - Exibir toast de feedback.
 - Mostrar loading no botão enquanto envia.
 - Conectar com backend (ex: NextAuth, JWT, API REST).
+
+---
+
+## 📋 Histórico de Implementação e Correções
+
+### ✅ Funcionalidade principal implementada
+
+- Criação do componente `AuthenticationPage` com:
+  - Abas (tabs) para Login e Cadastro
+  - Formulários com `react-hook-form`
+  - Validação com `zod`
+  - Componentes visuais com `shadcn/ui`
+  - Estilo com Tailwind CSS
+
+---
+
+### 📁 Arquivos adicionados
+
+- `src/app/authentication/page.tsx` — Tela de autenticação
+- `docs/authentication-page.md` — Documentação do componente
+- `.editorconfig` — Padronização de estilo (indentação, LF etc.)
+- `.gitattributes` — Quebra de linha universal (LF)
+- `.vscode/settings.json` — Configuração de editor com Prettier e boas práticas
+
+---
+
+### 📦 Dependências instaladas
+
+- `zod`
+- `react-hook-form`
+- `@hookform/resolvers`
+- `shadcn/ui`
+
+---
+
+### 🐛 Problemas encontrados e resolvidos
+
+- ❌ `useForm is not a function`: Corrigido com instalação correta do `react-hook-form`
+- ❌ JSX mal estruturado (`return` fora da função): Corrigido encapsulando corretamente
+- ❌ Campo `username` inválido: Corrigido alinhando os campos ao schema do `zod`
+- ❌ Hook `husky` não encontrado (`.git/hooks/commit-msg`): Corrigido com `npx husky install`
+- ❌ Aviso de `LF will be replaced by CRLF`: Corrigido com `.gitattributes` e configuração do Git
+- ❌ Rebase interrompido (`cannot lock ref 'HEAD'`): Corrigido com `rebase --abort` e reexecução
+- ❌ Conflito no `package-lock.json`: Corrigido recriando o lock com `npm install`
+- ❌ Push bloqueado (`no upstream`): Corrigido com `git push --set-upstream origin feat/authentication-page`
+- ❌ Push rejeitado (`non-fast-forward`): Corrigido com `git push --force-with-lease`
+
+---
+
+### 🧪 Testes realizados
+
+- [x] Navegação entre abas
+- [x] Validação de formulário (login e cadastro)
+- [x] Layout responsivo e estilizado
+- [x] Commit e push com dependências corretamente configuradas
+- [x] Resolução de conflitos no PR
+
+---
+
+### 📥 PR criado
+
+- Branch: `feat/authentication-page`
+- Título: `✨ feat(auth): implementa tela de autenticação com login e cadastro`
+- Status: Conflitos resolvidos ✅, pronto para merge
